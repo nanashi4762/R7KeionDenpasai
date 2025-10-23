@@ -102,15 +102,21 @@ function startAutoPlay() {
     progressBar.style.width = progress + "%";
   },50);
 
+  const icon = document.querySelector(".play-pause i");
+  icon.classList.remove("fa-play");
+  icon.classList.add("fa-pause");
+
   isPlaying = true;
-  document.querySelector(".play-pause").textContent = "⏸";
 }
 
 function stopAutoPlay() {
   clearInterval(autoPlayInterval);
   clearInterval(progressTimer);
+  
+  const icon = document.querySelector(".play-pause i");
+  icon.classList.remove("fa-pause");
+  icon.classList.add("fa-play");
   isPlaying = false;
-  document.querySelector(".play-pause").textContent = "▶";
 }
 
 function togglePlayPause() {
