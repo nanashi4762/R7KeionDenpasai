@@ -103,8 +103,8 @@ function startAutoPlay() {
   },50);
 
   const icon = document.querySelector(".play-pause i");
-  icon.classList.remove("fa-play");
-  icon.classList.add("fa-pause");
+  icon.classList.remove("fas fa-play");
+  icon.classList.add("fas fa-pause");
 
   isPlaying = true;
 }
@@ -114,8 +114,8 @@ function stopAutoPlay() {
   clearInterval(progressTimer);
   
   const icon = document.querySelector(".play-pause i");
-  icon.classList.remove("fa-pause");
-  icon.classList.add("fa-play");
+  icon.classList.remove("fas fa-pause");
+  icon.classList.add("fas fa-play");
   isPlaying = false;
 }
 
