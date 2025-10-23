@@ -122,6 +122,13 @@ body {
   color: rgb(182,182,182);
 }
 
+#band-name {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: white;
+}
+
 /*アニメーション用*/
 .image-wrapper {
   position: relative;
