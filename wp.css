@@ -119,6 +119,7 @@ body {
   flex-direction: column;
   justify-content: center;
   white-space: pre-line;
+  color: rgb(182,182,182);
 }
 
 /*アニメーション用*/
