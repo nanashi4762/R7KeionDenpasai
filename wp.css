@@ -19,10 +19,11 @@
 }
 
 h1 {
+    margin: 0;
     font-size: 48px;
     background-color: #1f1f1f;
     color: #ffffff;
-    padding: 8px 14px;
+    padding: 0;
 }
 h2 {
     font-size: 24px;
@@ -34,22 +35,27 @@ p {
     color: #ffffff;
     padding: 14px 14px 14px 14px;
 }
-ol {
+
+.program-table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-size: 1rem;
   text-align: center;
-  list-style-position: inside;
-  padding-left: 0;
-  margin-left: auto;
-  margin-right: auto;
+  width: 80%;
+  max-width: 600px;
+  color: white;
 }
-ul{
-    color:#ffffff;
-    padding-left:0;
+
+.program-table td {
+  padding: 0.5em 1em;
+  border-bottom: 1px solid #ccc;
 }
-li {
-    color: #ffffff;
-    font-size: 20px;
-    padding-bottom: 8px;
+
+.section-label {
+  font-weight: bold;
+  background-color: #737373;
 }
+
 body {
     font-family: sans-serif;
     margin: 0;
