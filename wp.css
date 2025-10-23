@@ -51,6 +51,12 @@ p {
   border-bottom: 1px solid #ccc;
 }
 
+.subtle {
+  color: #888; /* グレーで目立たなくする */
+  font-size: 0.9em; /* 少し小さく */
+  font-style: italic; /* お好みで */
+}
+
 .section-label {
   font-weight: bold;
   background-color: #737373;
