@@ -2,57 +2,57 @@ const bands = [
   {
     name: "LOOO",
     songs: ["インフェルノ", "花火", "ロマンチシズム", "ふっかつのじゅもん"],
-    image: "../アー写/[LOOO].jpg"
+    image: "./アー写/[LOOO].jpg"
   },
   {
     name: "羊のすべて",
     songs: ["burning", "more than world", "若者のすべて"],
-    image: "../アー写/羊のすべて.jpg"
+    image: "./アー写/羊のすべて.jpg"
   },
   {
     name: "109",
     songs: ["???"],
-    image: "../アー写/109.jpg"
+    image: "./アー写/109.jpg"
   },
   {
     name: "ピザ屋の彼女",
     songs: ["本能", "幕ノ内サディスティック", "群青日和", "NIPPON"],
-    image: "../アー写/ピザ屋の彼女.jpg"
+    image: "./アー写/ピザ屋の彼女.jpg"
   },
   {
     name: "フレア",
     songs: ["東京", "人として", "ないものねだり"],
-    image: "../アー写/フレア.jpg"
+    image: "./アー写/フレア.jpg"
   },
   {
     name: "ガラパゴスチキン",
     songs: ["夢灯籠", "サイハテアイニ", "My sweet baby", "キミシダイ列車"],
-    image: "../アー写/ガラパゴスチキン.jpg"
+    image: "./アー写/ガラパゴスチキン.jpg"
   },
   {
     name: "ペルシャン",
     songs: ["邦画", "チューリップ", "abcdc", "名前は片思い", "夏夜のマジック"],
-    image: "../アー写/ペルシャン.jpg"
+    image: "./アー写/ペルシャン.jpg"
   },
   {
     name: "花椰菜",
     songs: ["花になって", "キャラクター", "Shout Baby", "恥ずかしいか青春は", "Mela!"],
-    image: "../アー写/花椰菜.jpg"
+    image: "./アー写/花椰菜.jpg"
   },
   {
     name: "Morning Glory",
     songs: ["Acquiesce", "Supersonic", "Stand By Me", "Wonderwall", "Don't Look Back In Anger", "Whatever"],
-    image: "../アー写/MorningGlory.jpg"
+    image: "./アー写/MorningGlory.jpg"
   },
   {
     name: "Coronation Ceremony",
     songs: ["Vinyl", "Sorrows", "白日", "雨燦々", "Teenager Forever"],
-    image: "../アー写/CoronationCeremony.jpg"
+    image: "./アー写/CoronationCeremony.jpg"
   },
   {
     name: "ダサい古着屋さん",
     songs: ["ハッピーウエディング前ソング", "すこ。", "かわE", "無線LANばり便利", "あつまれ!パーティーピーポー"],
-    image: "../アー写/ダサい古着屋さん.jpg"
+    image: "./アー写/ダサい古着屋さん.jpg"
   }
 ];
 
