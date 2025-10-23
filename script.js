@@ -91,14 +91,14 @@ document.addEventListener("DOMContentLoaded", () => {
 function startAutoPlay() {
   autoPlayInterval = setInterval(() => {
     slideImage("right");
-  }, 5000);
+  }, 10000);
 
   //　再生バーの更新
   progressBar.style.width = "0%";
   let startTime = Date.now();
   progressTimer = setInterval(() => {
     let elapsed = Date.now() - startTime;
-    let progress = Math.min((elapsed / 5000) * 100, 100);
+    let progress = Math.min((elapsed / 10000) * 100, 100);
     progressBar.style.width = progress + "%";
   },50);
 
@@ -158,7 +158,7 @@ function slideImage(direction) {
       let startTime = Date.now();
       progressTimer = setInterval(() => {
         let elapsed = Date.now() - startTime;
-        let progress = Math.min((elapsed / 5000) * 100, 100);
+        let progress = Math.min((elapsed / 10000) * 100, 100);
         progressBar.style.width = progress + "%";
       },50);
     }
