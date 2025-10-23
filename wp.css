@@ -36,6 +36,32 @@ p {
     padding: 14px 14px 14px 14px;
 }
 
+.live-info {
+  display: flex;
+  justify-content: space-around;
+  background: #f8f8f8;
+  padding: 1em;
+  border-radius: 8px;
+  font-family: 'Helvetica Neue', sans-serif;
+  margin-bottom: 2em;
+}
+
+.info-block {
+  text-align: center;
+}
+
+.label {
+  display: block;
+  font-weight: bold;
+  color: #727272;
+  margin-bottom: 0.3em;
+}
+
+.value {
+  font-size: 1.1em;
+  color: white;
+}
+
 .program-table {
   margin: 0 auto;
   border-collapse: collapse;
