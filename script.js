@@ -46,7 +46,7 @@ const bands = [
   },
   {
     name: "Coronation Ceremony",
-    songs: ["Vinyl", "Sorrows", "白日", "雨燦々", "Teenager Forever"],
+    songs: ["Sorrows","Vinyl",  "白日", "雨燦々", "Teenager Forever"],
     image: "./アー写/CoronationCeremony.jpg"
   },
   {
